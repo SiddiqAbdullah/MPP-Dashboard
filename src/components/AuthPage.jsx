@@ -18,7 +18,7 @@ export default function AuthPage() {
         email,
         options: {
           // This must match the URL where the app is hosted
-          emailRedirectTo: window.location.origin + '/dashboard',
+          emailRedirectTo: 'https://mpp-dashboard-rho.vercel.app/auth/callback',
         },
       });
 
